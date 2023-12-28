@@ -45,3 +45,28 @@ print(count)
 #len 计算元素数量
 length = len(my_list)
 print(length)
+
+
+def list_while_func(list):
+    i = 0
+    even_list =[]
+    while i<len(list):
+        if list[i]%2==0:
+            even_list.append(list[i])
+        i+=1
+    return even_list
+
+def list_for_fun(list):
+    even_list = []
+    for i in list:
+        if i%2==0:
+            even_list.append(i)
+    return even_list
+
+
+text_list = [77,33,22,6,9,10,0]
+
+print(list_while_func(text_list))
+
+
+print(list_for_fun(text_list))
