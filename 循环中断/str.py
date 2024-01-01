@@ -23,3 +23,10 @@ print(new_str_str)
 for i in my_str:
     print(i)
 
+my_str = "itheima itcast boxuegu"
+count = my_str.count("it")
+print(count)
+new_str_str = my_str.replace(" ","|")
+print(new_str_str)
+my_str_list = new_str_str.split("|")
+print(my_str_list)
