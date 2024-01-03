@@ -9,3 +9,6 @@
 # from time import *
 # sleep(5)
 # print("你好")
+
+from my_module import *
+test(1,2)
