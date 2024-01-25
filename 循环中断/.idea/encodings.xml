@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/pySpark/Spark.py" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/资料/动态柱状图数据/1960-2019全球GDP数据.csv" charset="GBK" />
   </component>
 </project>
